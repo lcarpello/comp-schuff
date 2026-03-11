@@ -1,0 +1,38 @@
+.header {
+	  background-color: #6FC276;
+	  display: flex;
+	  justify-content: center;
+	  align-items: center;
+	  padding: 5px;
+	  border-radius: 54px;
+	}
+
+.header:hover {
+	  background-color: #2C5F34;
+	  display: flex;
+	  justify-content: center;
+	  align-items: center;
+	  padding: 5px;
+	  border-radius: 54px;
+	  transition: 0.5s;
+	}
+	
+.headingtitle {
+		font-family: "Garamond";
+		margin-left: 80px;
+		font-size: 55px;
+		
+	}
+
+.hr {
+	color: "golden";
+	width: 120%;
+	}
+
+.subsections {
+	  background-color: #6FC276;
+	  display: flex;
+	  justify-content: center;
+	  align-items: center;
+	  border-radius: 54px;
+	}
