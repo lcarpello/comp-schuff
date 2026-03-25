@@ -1,38 +1,99 @@
+﻿p {
+    font-size: 20px;
+    display: grid;
+    justify-content: center;
+    text-wrap: wrap;
+    padding-left: 200px;
+    padding-right: 200px;
+
+
+}
+body {
+
+    background-image: linear-gradient(to bottom right, aqua, #08314F);
+}
+
+ h1 {
+
+    display: grid;
+    justify-content: center;
+ }
+
 .header {
-	  background-color: #6FC276;
-	  display: flex;
-	  justify-content: center;
-	  align-items: center;
-	  padding: 5px;
-	  border-radius: 54px;
-	}
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-left: 100px; 
+    background-color: blueviolet;
 
-.header:hover {
-	  background-color: #2C5F34;
-	  display: flex;
-	  justify-content: center;
-	  align-items: center;
-	  padding: 5px;
-	  border-radius: 54px;
-	  transition: 0.5s;
-	}
-	
-.headingtitle {
-		font-family: "Garamond";
-		margin-left: 80px;
-		font-size: 55px;
-		
-	}
+}
+br {
+    padding-top: 200px;
+}
+.title1 {
 
-.hr {
-	color: "golden";
-	width: 120%;
-	}
-
-.subsections {
-	  background-color: #6FC276;
-	  display: flex;
-	  justify-content: center;
-	  align-items: center;
-	  border-radius: 54px;
-	}
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    position: relative;
+    left: -610px;
+    top: 100px;
+}
+.title2 {
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    position: relative;
+    right: -400px;
+    width: 1000px;
+    
+}
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: blueviolet;
+    padding: 20px;
+    margin-top: 300px;
+}
+img {
+    width: 200px;
+    height: 200px;
+}
+table {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+.title4 {
+    background-image: linear-gradient(to bottom right, #E6252E, #300E11);
+    border-style: groove;
+    border-bottom-color:blue;
+    border-weight: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    position: relative;
+    left: -10px;
+    top: 25px;
+    width: 800px;
+    height: 400px
+    
+}
+.title3 {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    position: relative;
+    right: -500px;
+    top: 200px;
+    
+    
+}
